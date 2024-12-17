@@ -1,27 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Countries</title>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Nunito:200,300,regular,500,600,700,800,900" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>practice</title>
+    <link rel="shortcut icon" href="#" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito:200,300,regular,500,600,700,800,900"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <header>
       <div class="container">
-        <div class="box-header">
-          <h3>Where in the world?</h3>
-          <p><i class="fa-regular fa-moon"></i>&nbsp;&nbsp; Dark Mode</p>
+        <div class="head-box">
+          <h2>Where in the World?</h2>
+          <p class="mode">
+            <i class="fa-regular fa-moon"></i>&nbsp;&nbsp;Dark Mode
+          </p>
         </div>
-       
-      </div>    
+      </div>
     </header>
+    <main>
+      <div class="container">
+        <div>
+          <div id="search-wrapper">
+            <i class="search-icon fas fa-search"></i>
+            <input type="text" id="search" placeholder="Search 5 Min Code :)" />
+          </div>
+          
+        </div>
 
-
-
-  <script src="site.js"></script>
-</body>
+        <div class="countries-container"></div>
+      </div>
+    </main>
+  </body>
+  <script src="./site.js" defer></script>
 </html>
